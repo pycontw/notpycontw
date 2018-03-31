@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="394px" viewBox="0 0 680 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>放射狀的線</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="1.94589954%" y1="97.9928782%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.152824955" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="April-Fools'-Day" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.56080163">
+        <g id="AprilFoolsDayUI" stroke="url(#linearGradient-1)">
+            <g id="perspectiveBG_large" transform="translate(-242.979533, -382.368024)">
+                <g id="放射狀的線" transform="translate(534.960587, 565.491385) rotate(-150.000000) translate(-534.960587, -565.491385) translate(174.460587, 121.491385)">
+                    <path d="M0.704484279,595.721396 L632.155016,0.0732079078" id="Line-4"></path>
+                    <path d="M0.704484279,595.721396 L632.155016,69.6467176" id="Line-4-Copy"></path>
+                    <path d="M0.704484279,595.721396 L702.336487,87.1614289" id="Line-4-Copy-3"></path>
+                    <path d="M0.704484279,595.721396 L704.544422,166.317064" id="Line-4-Copy-4"></path>
+                    <path d="M0.704484279,595.721396 L704.544422,242.730461" id="Line-4-Copy-5"></path>
+                    <path d="M0.704484279,595.721396 L714.287621,318.299184" id="Line-4-Copy-6"></path>
+                    <path d="M0.704484279,595.721396 L720.113897,397.309458" id="Line-4-Copy-7"></path>
+                    <path d="M0.704484279,595.721396 L698.843865,477.294051" id="Line-4-Copy-8"></path>
+                    <path d="M0.704484279,595.721396 L707.420829,634.651604" id="Line-4-Copy-9"></path>
+                    <path d="M0.704484279,595.721396 L702.921345,557.570722" id="Line-4-Copy-10"></path>
+                    <path d="M0.704484279,595.721396 L676.234018,709.49995" id="Line-4-Copy-11"></path>
+                    <path d="M0.704484279,595.721396 L666.434929,779.614775" id="Line-4-Copy-12"></path>
+                    <path d="M0.704484279,595.721396 L649.045985,845.976165" id="Line-4-Copy-13"></path>
+                    <path d="M0.704484279,595.721396 L585.656303,887.539586" id="Line-4-Copy-14"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
