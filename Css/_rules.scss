@@ -1,0 +1,39 @@
+// color
+$bg-color:#2e04be;
+$font-color:#fff;
+// rwd
+$pc-width:1280px;
+$pad-high-width:1279px;
+$pad-low-width:1024px;
+$mobile-high-width:1023px;
+$mobile-low-width:768px;
+$mobile-lowest-width:360px;
+@mixin pc-rwd() {
+    @media screen and (min-width: $pc-width) {
+        @content;
+    }
+}
+
+@mixin pad-high-rwd() {
+    @media screen and (min-width: $pad-low-width) and (max-width: $pad-high-width) {
+        @content;
+    }
+}
+
+@mixin pad-low-rwd() {
+    @media screen and (min-width: $mobile-low-width) and (max-width: $mobile-high-width) {
+        @content;
+    }
+}
+
+@mixin mobile-rwd() {
+    @media screen and (max-width: $mobile-high-width) {
+        @content;
+    }
+}
+
+@mixin lowest-rwd() {
+    @media screen and (max-width: $mobile-lowest-width) {
+        @content;
+    }
+}

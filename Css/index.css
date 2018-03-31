@@ -1,0 +1,94 @@
+@media screen and (min-width: 1280px) {
+  body .m_show {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  body .m_show {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body .m_none {
+    display: none !important;
+  }
+}
+
+body .container {
+  width: 100%;
+  position: relative;
+}
+
+body .container .bg {
+  width: 100%;
+}
+
+body .container .bg img {
+  width: 100%;
+}
+
+body .container .join {
+  width: 80%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 5vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  body .container .join {
+    width: 60%;
+    bottom: 20vw;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) and (max-width: 1023px) {
+  body .container .join {
+    bottom: 50vw;
+  }
+}
+
+@media screen and (max-width: 1023px) and (max-width: 360px) {
+  body .container .join {
+    bottom: 15vw;
+  }
+}
+
+body .container .join div {
+  width: 20%;
+  margin: 0 2.5%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 1023px) {
+  body .container .join div {
+    width: 100%;
+    margin: 12px 0;
+  }
+}
+
+body .container .join div h2 {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+body .container .join div a {
+  width: 100%;
+  display: block;
+  background: #2e04be;
+  background: linear-gradient(to right, #2e04be, #2b95e0);
+  border-radius: 32px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

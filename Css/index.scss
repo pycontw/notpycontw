@@ -1,0 +1,73 @@
+@import 'rules';
+body {
+    .m_show {
+        @include pc-rwd {
+            display: none !important;
+        }
+        @include pad-high-rwd {
+            display: none !important;
+        }
+    }
+    .m_none {
+        @include mobile-rwd {
+            display: none !important;
+        }
+    }
+    .container {
+        width: 100%;
+        position: relative;
+        .bg {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .join {
+            width: 80%;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: 5vw;
+            margin: auto;
+            @include mobile-rwd {
+                width: 60%;
+                bottom: 20vw;
+                @include pad-low-rwd {
+                    bottom: 50vw;
+                }
+                @include lowest-rwd() {
+                    bottom: 15vw;
+                }
+            }
+            div {
+                width: 20%;
+                margin: 0 2.5%;
+                display: inline-block;
+                vertical-align: middle;
+                @include mobile-rwd {
+                    width: 100%;
+                    margin: 12px 0;
+                }
+                h2 {
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: 1px;
+                    color: $font-color;
+                }
+                a {
+                    width: 100%;
+                    display: block;
+                    background: $bg-color;
+                    background: linear-gradient(to right, $bg-color, #2b95e0);
+                    border-radius: 32px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    line-height: 40px;
+                    letter-spacing: 1px;
+                    color: $font-color;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
